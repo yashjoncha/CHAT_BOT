@@ -29,3 +29,6 @@ EXPOSE 8000
 
 # Run entrypoint script
 ENTRYPOINT ["/app/entrypoint.sh"]
+
+# Default command to run the application
+CMD ["gunicorn", "chatbot_project.wsgi:application", "--bind", "0.0.0.0:8000", "--workers", "3"]
