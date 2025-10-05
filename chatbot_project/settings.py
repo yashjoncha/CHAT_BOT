@@ -76,16 +76,32 @@ WSGI_APPLICATION = "chatbot_project.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": config('DB_NAME', default='chatbot_db'),
-        "USER": config('DB_USER', default='chatbot_user'),
-        "PASSWORD": config('DB_PASSWORD', default='chatbot_password'),
-        "HOST": config('DB_HOST', default='db'),
-        "PORT": config('DB_PORT', default='5432'),
+import dj_database_url
+
+# Check if DATABASE_URL is provided (for Render/Heroku)
+DATABASE_URL = config('DATABASE_URL', default=None)
+
+if DATABASE_URL:
+    # Use DATABASE_URL for cloud deployments (Render, Heroku, etc.)
+    DATABASES = {
+        'default': dj_database_url.config(
+            default=DATABASE_URL,
+            conn_max_age=600,
+            conn_health_checks=True,
+        )
     }
-}
+else:
+    # Use individual DB settings for Docker/local development
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.postgresql",
+            "NAME": config('DB_NAME', default='chatbot_db'),
+            "USER": config('DB_USER', default='chatbot_user'),
+            "PASSWORD": config('DB_PASSWORD', default='chatbot_password'),
+            "HOST": config('DB_HOST', default='db'),
+            "PORT": config('DB_PORT', default='5432'),
+        }
+    }
 
 
 # Password validation
