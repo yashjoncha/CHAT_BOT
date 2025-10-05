@@ -1,17 +1,6 @@
 version: '3.8'
 
 services:
-  db:
-    image: postgres:15
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-    environment:
-      - POSTGRES_DB=chatbot_db
-      - POSTGRES_USER=chatbot_user
-      - POSTGRES_PASSWORD=chatbot_password
-    ports:
-      - "5432:5432"
-
   web:
     build: .
     command: gunicorn chatbot_project.wsgi:application --bind 0.0.0.0:8000 --workers 3
@@ -24,14 +13,6 @@ services:
       - DEBUG=False
       - SECRET_KEY=your-secret-key-change-in-production
       - ALLOWED_HOSTS=localhost,127.0.0.1
-      - DB_NAME=chatbot_db
-      - DB_USER=chatbot_user
-      - DB_PASSWORD=chatbot_password
-      - DB_HOST=db
-      - DB_PORT=5432
-    depends_on:
-      - db
 
 volumes:
-  postgres_data:
   static_volume:
