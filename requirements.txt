@@ -2,3 +2,6 @@ Django==5.0.1
 gunicorn==21.2.0
 python-decouple==3.8
 whitenoise==6.6.0
+dspy
+openai
+anthropic

@@ -1,0 +1,270 @@
+[
+  {
+    "id": 1,
+    "type": "short_answer",
+    "question": "Why should a magnesium ribbon be cleaned before burning in air?",
+    "answer": "A magnesium ribbon should be cleaned before burning to remove the oxide layer formed on its surface due to reaction with air moisture. This ensures proper burning and accurate observation of the reaction.",
+    "topic": "Chemical Reactions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "type": "definition",
+    "question": "What is a chemical equation?",
+    "answer": "A chemical equation is a symbolic representation of a chemical reaction showing the reactants, products, and their physical states. It uses chemical formulae and symbols to represent the transformation of substances.",
+    "topic": "Chemical Equations",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "type": "short_answer",
+    "question": "What is a balanced chemical equation and why should chemical equations be balanced?",
+    "answer": "A balanced chemical equation has equal numbers of atoms of each element on both the reactant and product sides. Chemical equations should be balanced to follow the law of conservation of mass, which states that mass can neither be created nor destroyed in a chemical reaction.",
+    "topic": "Balancing Equations",
+    "difficulty": "medium"
+  },
+  {
+    "id": 4,
+    "type": "reaction_balancing",
+    "question": "Balance the following equation: Fe + H2O → Fe3O4 + H2",
+    "answer": "3Fe + 4H2O → Fe3O4 + 4H2",
+    "topic": "Balancing Equations",
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "question": "Which of the following is a combination reaction?",
+    "options": [
+      "CaCO3 → CaO + CO2",
+      "2H2 + O2 → 2H2O",
+      "Zn + CuSO4 → ZnSO4 + Cu",
+      "AgNO3 + NaCl → AgCl + NaNO3"
+    ],
+    "answer": "2H2 + O2 → 2H2O",
+    "explanation": "A combination reaction is one where two or more substances combine to form a single product. Here, hydrogen and oxygen combine to form water.",
+    "topic": "Types of Reactions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "type": "conceptual",
+    "question": "What is the difference between exothermic and endothermic reactions? Give one example of each.",
+    "answer": "Exothermic reactions release heat along with products (example: burning of natural gas CH4 + 2O2 → CO2 + 2H2O). Endothermic reactions absorb energy (example: decomposition of calcium carbonate CaCO3 → CaO + CO2 when heated).",
+    "topic": "Energy in Reactions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 7,
+    "type": "short_answer",
+    "question": "Why is respiration considered an exothermic reaction?",
+    "answer": "Respiration is considered an exothermic reaction because when glucose combines with oxygen in our body cells, it releases energy along with producing carbon dioxide and water. The equation is: C6H12O6 + 6O2 → 6CO2 + 6H2O + energy.",
+    "topic": "Energy in Reactions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 8,
+    "type": "definition",
+    "question": "What is a decomposition reaction?",
+    "answer": "A decomposition reaction is a reaction in which a single reactant breaks down to give two or more simpler products. It is the opposite of a combination reaction.",
+    "topic": "Types of Reactions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "type": "conceptual",
+    "question": "Explain thermal decomposition with an example.",
+    "answer": "Thermal decomposition is a decomposition reaction carried out by heating. Example: When calcium carbonate (limestone) is heated, it decomposes to calcium oxide (quick lime) and carbon dioxide: CaCO3 → CaO + CO2.",
+    "topic": "Decomposition Reactions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 10,
+    "type": "observation_based",
+    "question": "What happens when ferrous sulphate crystals are heated? Describe the change and write the equation.",
+    "answer": "When ferrous sulphate crystals (green color) are heated, they lose water and change color. Then they decompose to form ferric oxide (solid), sulphur dioxide (gas), and sulphur trioxide (gas). The characteristic odor of burning sulphur is observed. Equation: 2FeSO4 → Fe2O3 + SO2 + SO3",
+    "topic": "Decomposition Reactions",
+    "difficulty": "hard"
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "question": "Which of the following is used in black and white photography?",
+    "options": [
+      "Decomposition of calcium carbonate",
+      "Decomposition of silver chloride and silver bromide by light",
+      "Decomposition of lead nitrate",
+      "Electrolysis of water"
+    ],
+    "answer": "Decomposition of silver chloride and silver bromide by light",
+    "explanation": "Silver chloride and silver bromide decompose in the presence of sunlight to form silver metal and chlorine/bromine gas, which is used in black and white photography.",
+    "topic": "Decomposition Reactions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 12,
+    "type": "short_answer",
+    "question": "What is a displacement reaction? Give an example.",
+    "answer": "A displacement reaction is one in which a more reactive element displaces a less reactive element from its compound. Example: When iron nail is dipped in copper sulphate solution, iron displaces copper: Fe + CuSO4 → FeSO4 + Cu.",
+    "topic": "Displacement Reactions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 13,
+    "type": "observation_based",
+    "question": "Why does the color of copper sulphate solution change when an iron nail is dipped in it?",
+    "answer": "The blue color of copper sulphate solution fades because iron displaces copper from copper sulphate solution forming iron sulphate (light green) and copper metal deposits on the iron nail giving it a brownish coating.",
+    "topic": "Displacement Reactions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 14,
+    "type": "definition",
+    "question": "What is a double displacement reaction?",
+    "answer": "A double displacement reaction is one in which there is an exchange of ions between two reactants to form new compounds. Example: Na2SO4 + BaCl2 → BaSO4 + 2NaCl",
+    "topic": "Double Displacement Reactions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 15,
+    "type": "short_answer",
+    "question": "What is a precipitation reaction? Give an example.",
+    "answer": "A precipitation reaction is one that produces an insoluble substance (precipitate) as a product. Example: When sodium sulphate reacts with barium chloride, white precipitate of barium sulphate is formed: Na2SO4 + BaCl2 → BaSO4(s) + 2NaCl",
+    "topic": "Precipitation Reactions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 16,
+    "type": "conceptual",
+    "question": "Define oxidation and reduction in terms of oxygen.",
+    "answer": "Oxidation is the gain of oxygen or loss of hydrogen during a reaction. Reduction is the loss of oxygen or gain of hydrogen during a reaction.",
+    "topic": "Oxidation and Reduction",
+    "difficulty": "medium"
+  },
+  {
+    "id": 17,
+    "type": "reaction_analysis",
+    "question": "In the reaction CuO + H2 → Cu + H2O, identify which substance is oxidized and which is reduced.",
+    "answer": "CuO is reduced (loses oxygen to form Cu). H2 is oxidized (gains oxygen to form H2O).",
+    "topic": "Redox Reactions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "question": "Which of the following reactions is a redox reaction?",
+    "options": [
+      "NaCl + AgNO3 → AgCl + NaNO3",
+      "CuO + H2 → Cu + H2O",
+      "BaCl2 + Na2SO4 → BaSO4 + 2NaCl",
+      "CaCO3 → CaO + CO2"
+    ],
+    "answer": "CuO + H2 → Cu + H2O",
+    "explanation": "This is a redox reaction where CuO is reduced and H2 is oxidized. One reactant gets oxidized while the other gets reduced.",
+    "topic": "Redox Reactions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 19,
+    "type": "application",
+    "question": "What is corrosion? Give two examples.",
+    "answer": "Corrosion is the process where a metal is attacked by substances around it such as moisture, acids, etc. Examples: 1) Rusting of iron (reddish brown coating), 2) Green coating on copper, 3) Black coating on silver.",
+    "topic": "Effects of Oxidation",
+    "difficulty": "easy"
+  },
+  {
+    "id": 20,
+    "type": "application",
+    "question": "What is rancidity and how can it be prevented?",
+    "answer": "Rancidity is the oxidation of fats and oils causing unpleasant smell and taste changes. It can be prevented by: 1) Adding antioxidants, 2) Storing in airtight containers, 3) Flushing packets with nitrogen gas (as done in chips packets).",
+    "topic": "Effects of Oxidation",
+    "difficulty": "medium"
+  },
+  {
+    "id": 21,
+    "type": "reaction_writing",
+    "question": "Write the balanced equation for the burning of magnesium in air with state symbols.",
+    "answer": "2Mg(s) + O2(g) → 2MgO(s)",
+    "topic": "Chemical Equations",
+    "difficulty": "medium"
+  },
+  {
+    "id": 22,
+    "type": "conceptual",
+    "question": "What happens when calcium oxide reacts with water? Write the equation and identify the type of reaction.",
+    "answer": "Calcium oxide reacts vigorously with water to produce slaked lime (calcium hydroxide) releasing a large amount of heat. Equation: CaO + H2O → Ca(OH)2 + Heat. This is a combination reaction and also an exothermic reaction.",
+    "topic": "Combination Reactions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 23,
+    "type": "application",
+    "question": "Why do chips manufacturers flush bags of chips with nitrogen gas?",
+    "answer": "Chips manufacturers flush bags with nitrogen gas to prevent oxidation of fats and oils in chips, which would otherwise cause rancidity and make the chips stale with unpleasant smell and taste.",
+    "topic": "Rancidity",
+    "difficulty": "easy"
+  },
+  {
+    "id": 24,
+    "type": "reaction_analysis",
+    "question": "What type of reaction is: 2AgCl → 2Ag + Cl2 (in sunlight)? Explain.",
+    "answer": "This is a photolytic decomposition reaction (decomposition by light) and also an endothermic reaction as it requires light energy. Silver chloride decomposes in sunlight to form silver and chlorine gas.",
+    "topic": "Decomposition Reactions",
+    "difficulty": "hard"
+  },
+  {
+    "id": 25,
+    "type": "conceptual",
+    "question": "Why are decomposition reactions called the opposite of combination reactions?",
+    "answer": "In combination reactions, two or more substances combine to form a single product. In decomposition reactions, a single substance breaks down into two or more simpler products. They are opposite processes.",
+    "topic": "Types of Reactions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 26,
+    "type": "observation_based",
+    "question": "In the electrolysis of water, which gas is collected in double the volume and how can you test the gases?",
+    "answer": "Hydrogen gas is collected in double the volume (2:1 ratio H2:O2). Hydrogen can be tested by bringing a burning candle - it burns with a pop sound. Oxygen can be tested by bringing a glowing splint - it rekindles.",
+    "topic": "Decomposition by Electricity",
+    "difficulty": "medium"
+  },
+  {
+    "id": 27,
+    "type": "reaction_writing",
+    "question": "Write the balanced equation for the reaction between zinc and dilute sulphuric acid.",
+    "answer": "Zn + H2SO4 → ZnSO4 + H2",
+    "topic": "Chemical Reactions",
+    "difficulty": "easy"
+  },
+  {
+    "id": 28,
+    "type": "application",
+    "question": "Why do we apply paint on iron articles?",
+    "answer": "Paint is applied on iron articles to prevent corrosion. Paint forms a protective layer that prevents moisture and air from reaching the iron surface, thus preventing rusting.",
+    "topic": "Corrosion Prevention",
+    "difficulty": "easy"
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "question": "The reaction Fe2O3 + 2Al → Al2O3 + 2Fe is an example of:",
+    "options": [
+      "Combination reaction",
+      "Double displacement reaction",
+      "Decomposition reaction",
+      "Displacement reaction"
+    ],
+    "answer": "Displacement reaction",
+    "explanation": "Aluminum displaces iron from iron oxide, making this a displacement reaction. It is also a redox reaction.",
+    "topic": "Types of Reactions",
+    "difficulty": "medium"
+  },
+  {
+    "id": 30,
+    "type": "conceptual",
+    "question": "What is the difference between displacement and double displacement reactions?",
+    "answer": "In displacement reactions, a more reactive element displaces a less reactive element from its compound (e.g., Zn + CuSO4 → ZnSO4 + Cu). In double displacement reactions, there is an exchange of ions between two reactants (e.g., Na2SO4 + BaCl2 → BaSO4 + 2NaCl).",
+    "topic": "Types of Reactions",
+    "difficulty": "hard"
+  }
+]

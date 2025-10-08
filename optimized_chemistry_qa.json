@@ -1,0 +1,57 @@
+{
+  "generate_answer.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "Why should a magnesium ribbon be cleaned before burning in air?",
+        "reasoning": "A magnesium ribbon should be cleaned before burning in air to remove any oxide layer or impurities that may have formed on its surface. This ensures that the magnesium burns efficiently and reacts completely with oxygen, producing a bright white flame and magnesium oxide. If the surface is not cleaned, the reaction may be incomplete, leading to less vigorous burning and potentially affecting the results of any experiments.",
+        "answer": "A magnesium ribbon should be cleaned before burning in air to remove any oxide layer or impurities, ensuring complete and efficient combustion with oxygen."
+      },
+      {
+        "augmented": true,
+        "question": "What is a chemical equation?",
+        "reasoning": "A chemical equation is a symbolic representation of a chemical reaction, showing the reactants on the left side and the products on the right side, separated by an arrow. It conveys the identities and quantities of the substances involved in the reaction, allowing for a clear understanding of the transformation that occurs during the reaction.",
+        "answer": "A chemical equation is a symbolic representation of a chemical reaction, indicating the reactants and products along with their respective quantities."
+      },
+      {
+        "augmented": true,
+        "question": "What is a balanced chemical equation and why should chemical equations be balanced?",
+        "reasoning": "A balanced chemical equation has the same number of atoms of each element on both the reactant and product sides, adhering to the law of conservation of mass. This law states that matter cannot be created or destroyed in a chemical reaction, so balancing ensures that the mass of reactants equals the mass of products.",
+        "answer": "A balanced chemical equation is one where the number of atoms for each element is equal on both sides of the equation. Chemical equations should be balanced to comply with the law of conservation of mass, ensuring that matter is neither created nor destroyed during the reaction."
+      },
+      {
+        "augmented": true,
+        "question": "Balance the following equation: Fe + H2O → Fe3O4 + H2",
+        "reasoning": "To balance the equation Fe + H2O → Fe3O4 + H2, we need to ensure that the number of atoms of each element is the same on both sides of the equation. Starting with iron (Fe), we have 3 Fe in Fe3O4, so we need 3 Fe on the left side. For oxygen (O), there are 4 O in Fe3O4, which means we need 4 H2O to provide 4 O. This gives us 4 H2, which we need to balance as well. The balanced equation is: 3Fe + 4H2O → Fe3O4 + 4H2.",
+        "answer": "3Fe + 4H2O → Fe3O4 + 4H2"
+      }
+    ],
+    "signature": {
+      "instructions": "Answer chemistry questions based on Class 10 Chemical Reactions and Equations.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "Chemistry question from Chapter 1"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "Accurate answer to the chemistry question"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.10",
+      "dspy": "3.0.3",
+      "cloudpickle": "3.1"
+    }
+  }
+}

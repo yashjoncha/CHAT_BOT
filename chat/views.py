@@ -2,8 +2,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 import json
-
-# Create your views here.
+from .dspy_logic import get_chemistry_response
 
 def home(request):
     """Render the chat interface"""
@@ -23,18 +22,27 @@ def chat_api(request):
             data = json.loads(request.body)
             user_message = data.get('message', '')
 
-            # Simple response - just say "let's go"
-            bot_response = "let's go"
+            if not user_message:
+                return JsonResponse({
+                    'error': 'No message provided',
+                    'status': 'error'
+                }, status=400)
+
+            # Use DSPy Chemistry QA module
+            bot_response = get_chemistry_response(user_message)
 
             return JsonResponse({
                 'response': bot_response,
                 'status': 'success'
             })
         except Exception as e:
+            print(f"[ERROR] Exception in chat_api: {str(e)}")
+            import traceback
+            traceback.print_exc()
             return JsonResponse({
-                'error': str(e),
+                'error': 'Failed to generate response',
                 'status': 'error'
-            }, status=400)
+            }, status=500)
 
     return JsonResponse({
         'error': 'Method not allowed',
